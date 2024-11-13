@@ -1,0 +1,21 @@
+#about {
+  background-image: url("../image/home-bg-remove.png"); /* Verifique o caminho */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 68px !important;
+  padding-bottom: 68px !important;
+}
+section .font-bold {
+  color: var(--red);
+}
+.first-letter-uppercase::first-letter {
+  text-transform: uppercase;
+}
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}

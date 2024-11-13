@@ -1,0 +1,78 @@
+@media (max-width: 1024px) {
+  h2.text-white {
+    width: 80% !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-brand i {
+    font-size: 2rem;
+  }
+  #menu-bar {
+    display: inline-block;
+    transition: transform 0.2s linear !important;
+    font-size: 1rem;
+    padding: 5px 8px;
+    cursor: pointer; /* Adicione um cursor para indicar que é clicável */
+  }
+  #menu-btn.fa-times {
+    transform: rotate(180deg) !important;
+  }
+  #navbarNav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #f7f7f7;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  #navbarNav.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    display: block; /* Mostrar quando ativo */
+  }
+  #navbarNav ul li a {
+    margin: 8px;
+    padding: 1rem;
+    display: block;
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    border-left: 0.2rem solid var(--red);
+  }
+  #navbarNav ul li a {
+    background-color: #fff;
+  }
+  #navbarNav ul li a:hover {
+    background-color: #f2f2f2;
+  }
+}
+@media (max-width: 991px) {
+  #about .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+@media (max-width: 768px) {
+  #about .grid {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .card-text {
+    /* width: 75% !important; */
+    font-size: 18px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-3xl {
+    font-size: 1.5rem !important;
+  }
+  .card-text {
+    width: 100% !important;
+  }
+  /* #about{
+    padding: 0 1rem !important;
+  } */
+  footer .btn,
+  footer h1 {
+    font-size: 1rem !important;
+    font-weight: 100 !important;
+  }
+}

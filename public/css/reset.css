@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/uni-neue");
+:root {
+  --red: #ff3112;
+  --red-hover: #ff3212ee;
+  --red-hover2:rgba(251, 5, 42, 0.49);
+  --blue: #4f46e5;
+}
+
+* {
+  font-family: "UniSans", "Uni Neue", "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none !important;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+}
+@font-face {
+  font-family: "UniSans";
+  src: url("../fonts/Uni\ Sans\ Regular.woff") format("woff"), 
+  url("../fonts/Uni\ Sans\ Light.woff") format("woff"),
+    url("../fonts/Uni\ Sans\ Bold.woff") format("woff"), 
+    url("../fonts/Uni\ Sans\ Bold\ Italic.woff") format("woff"),
+    url("../fonts/Uni\ Sans\ Book.woff") format("woff"), 
+    url("../fonts/Uni\ Sans\ Book\ Italic.woff") format("woff"),
+    url("../fonts/Uni\ Sans\ Medium.woff") format("woff"), 
+    url("../fonts/Uni\ Sans\ Medium\ Italic.woff") format("woff");
+}
+
+html {
+  overflow-x: hidden;
+  scroll-padding-top: 2rem;
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+  width: 0.8rem;
+  height: 0.25px;
+}
+hml::-webkit-scroll-track {
+  background: inset 0 0 5px #a5aaad;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: var(--red);
+  border-radius: 5rem;
+  transition: background-color 0.3s ease;
+  border: 1px solid #fff;
+}
+html::-webkit-scrollbar-thumb:hover {
+  background: var(--red-hover);
+  border-radius: 5rem;
+}
+
+*::selection {
+  background: var(--red);
+  color: #fff;
+}
+
+html {
+  /* font-size: 62.5%; */
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+body {
+  background: #f7f7f7 !important;
+}
+
+section,
+header,
+footer {
+  padding: 2rem 7% !important;
+}

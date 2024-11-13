@@ -1,0 +1,76 @@
+#contact {
+  background-image: url("../image/home-bg-remove.png"); /* Verifique o caminho */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 68px !important;
+}
+
+#contact .text-3xl {
+  margin-top: 32px;
+}
+
+.basics-30rem {
+  flex: 1 1 30rem !important;
+  display: flex !important;
+  flex-flow: column wrap !important;
+  justify-content: center !important;
+}
+
+input:focus,
+textarea:focus {
+  outline: none !important;
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.868) !important;
+}
+
+button#modal-close-btn {
+  width: 50% !important; 
+  display: block; 
+  margin: 16px auto 0; 
+  position: relative; 
+  z-index: 1000; 
+  border: none !important; 
+  outline: none !important; 
+  background-color: #e3342f;
+  color: white; 
+  padding: 12px; 
+  border-radius: 0.375rem; 
+  text-align: center; 
+  cursor: pointer; 
+  transition: background-color 0.3s; /* 
+}
+
+button#modal-close-btn:hover {
+  background-color: #c53030; /* Cor ao passar o mouse (darker red) */
+}
+
+/* Mensagem de erro */
+.text-red-500 {
+  display: block;
+  color: red;
+  font-size: 14px !important;
+  line-height: 1.2 !important;
+  margin: 4px 0; /* Ajuste do espaço ao redor para evitar mudanças no layout */
+  height: 16px; /* Define uma altura fixa para manter o layout estável */
+}
+
+input[type="submit"] {
+  outline: none !important;
+  border: none !important;
+}
+@media (max-width: 768px) {
+  #contact .box-form {
+    padding-left: 12px;
+    padding-right: 12px;
+    height: auto !important;
+  }
+  .rounded-l {
+    border-top-left-radius: 0.25rem !important;
+    border-top-right-radius: 0.25rem !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+}

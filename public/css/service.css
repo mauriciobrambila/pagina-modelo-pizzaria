@@ -1,0 +1,11 @@
+#service {
+  background-image: url("../image/home-bg.webp"); /* Verifique o caminho */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 0;
+}
+#service .text-3xl{
+  margin-top: 32px;
+}

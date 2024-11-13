@@ -1,0 +1,31 @@
+/* section#testemonials .shadow-lg {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+} */
+
+#testimonials {
+  background-image: url("../image/home-bg-remove.png"); /* Verifique o caminho */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 0;
+  padding-bottom: 64px !important;
+}
+
+/* Definindo a animação de flutuação */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Aplicando o efeito flutuante ao passar o mouse */
+.card-hover:hover {
+  animation: float 3.5s ease-in-out infinite;
+}
