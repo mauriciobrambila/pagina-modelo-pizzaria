@@ -1,4 +1,4 @@
-# Projeto: Atividade 04 - Criação de uma Landing Page
+# Criação de uma Page de pizzaria
 
 Bem-vindo ao [Sabores Autênticos Website](https://landingpage-restaurante-three.vercel.app/), uma  page fictícia desenvolvido para fins de atividades e projetos de programação. Qualquer semelhança com sites reais é mera coincidência.
 
